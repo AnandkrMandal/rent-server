@@ -224,7 +224,7 @@ const updateProperty = asyncHandler(async (req, res) => {
     if (bedrooms !== undefined) updates.bedrooms = bedrooms;
     if (bathrooms !== undefined) updates.bathrooms = bathrooms;
     if (kitchen !== undefined) updates.kitchen = kitchen;
-    if (price !== undefined) updates.bathrooms = price;
+    if (price !== undefined) updates.price = price;
     if (nearbyFacilities !== undefined) updates.nearbyFacilities = nearbyFacilities;
 
     // Handle image update if provided
